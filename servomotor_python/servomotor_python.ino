@@ -13,6 +13,7 @@ void loop() {
     int angulo = Serial.parseInt();
     mi_servo.write(angulo);  
     Serial.println("Ángulo: " + String(angulo));
+    delay(15);  
   }
       
 }
